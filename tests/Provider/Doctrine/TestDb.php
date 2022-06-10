@@ -36,8 +36,8 @@ class TestDb
         $cache = new ArrayCache();
 
         $config = new Configuration();
-        $config->setMetadataCacheImpl($cache);
-        $config->setQueryCacheImpl($cache);
+        $config->setMetadataCache($cache);
+        $config->setQueryCache($cache);
         $config->setMetadataDriverImpl(
             $config->newDefaultAnnotationDriver($annotationPath)
         );

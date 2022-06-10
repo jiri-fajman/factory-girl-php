@@ -25,13 +25,13 @@
     "require": {
         "php": "^7.1 || ^8.0",
         "doctrine/annotations": "^1.7.0",
-        "doctrine/common": "^2.2.1",
-        "doctrine/dbal": "^2.2.1",
+        "doctrine/common": "^2.2.1 || ^3.0",
+        "doctrine/dbal": "^2.2.1 || ^3.0",
         "doctrine/orm": "^2.6.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14.0",
-        "phpunit/phpunit": "^7.5.1"
+        "phpunit/phpunit": "^7.5.1 || ^8.0"
     },
     "suggest": {
         "fzaninotto/faker": "For generating fake data in entity definitions"

@@ -24,7 +24,7 @@ abstract class TestCase extends Framework\TestCase
      */
     protected $em;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

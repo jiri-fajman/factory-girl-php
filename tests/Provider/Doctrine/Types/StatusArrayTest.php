@@ -17,7 +17,7 @@ class StatusArrayTest extends TestCase
      */
     protected $type;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->platform = $this->getMockForAbstractClass('\Doctrine\DBAL\Platforms\AbstractPlatform');
         $this->type = Type::getType('statusarray');
